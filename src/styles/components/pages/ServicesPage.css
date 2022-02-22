@@ -1,0 +1,68 @@
+.holder{
+    width: 970px;
+
+}
+
+.cuadrado{
+    display: block;
+    column-count: 2;
+    margin: 5px 0 5px 0;
+    border: solid 2px #00a997;
+    height: 100px;
+}
+.cuadrado >h2{
+    font-size: 2.5em;
+    color:#000;
+    text-align: center;
+
+}
+
+.cuadrado > p{
+
+    padding: 1.5em;
+    color:#252932;
+    font-weight: bold;
+    font-style: italic;
+    
+}
+.container-services{
+    display:flex;
+    flex-flow: row wrap;
+
+}
+
+.foto-services{
+    display:inline-block;
+    position: relative;
+    text-align: center;
+}
+
+.foto-services>img{
+    width: 970px;
+    height:300px; 
+}
+
+/* .centrado{
+    position:absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    color:#ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+    text-shadow: 2px 3px #252932;
+
+}
+
+.centrado > p{
+    font-size: 0.8em;
+
+    
+}
+.centrado>h3{
+    font-weight: bolder;
+
+
+
+
+} */
