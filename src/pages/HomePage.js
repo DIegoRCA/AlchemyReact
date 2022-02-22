@@ -5,7 +5,7 @@ const HomePage = (props)=>{
     return (
         <main className='holder wrapper'>
             <div className='homevideo'>
-                <video className='video' controls  autoplay>
+                <video className='video' controls  autoPlay>
                 <source src="images/home/1286756359.mp4" type="video/mp4"/>
                 </video>
             </div>
