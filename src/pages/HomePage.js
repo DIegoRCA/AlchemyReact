@@ -1,10 +1,11 @@
 import React from 'react';
+import '../styles/components/pages/HomePage.css';
 
 const HomePage = (props)=>{
     return (
         <main className='holder wrapper'>
             <div className='homevideo'>
-                <video className='video' controls autoplay muted >
+                <video className='video' controls  autoplay>
                 <source src="images/home/1286756359.mp4" type="video/mp4"/>
                 </video>
             </div>
