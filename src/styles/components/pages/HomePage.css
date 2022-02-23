@@ -1,16 +1,15 @@
 .holder{
     width: 960px;
     margin: 0 auto;
-   
-  }
+}
 
 
-  .video{
+.video{
     top: 50%;
     left: 50%;
     max-width: 100%;
     min-width: 100%;
-    width: 960px;
+    width: 970px;
     height: auto;
     z-index: -100;
     transition: 1.5s opacity;
@@ -65,6 +64,4 @@
 .monogram{
     display: block;
     padding: 1.2em;
-   
-
 }

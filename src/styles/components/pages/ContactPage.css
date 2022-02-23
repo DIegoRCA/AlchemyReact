@@ -1,0 +1,58 @@
+.columns{
+    column-count: 2;
+    padding: 2em 2em;
+    font-family: 'Raleway', sans-serif !important;
+    font-size: 14px;
+    line-height: 24px;
+ 
+ }
+ 
+ .leftColumn{
+     padding-left: 40%;
+     border-right: 2px solid #00a997;
+     color:black;
+     list-style: none;
+ }
+ .rightColumn{
+     padding-top: 1% ;
+     color:black;
+ }
+ .rightColumn>ul{
+     list-style: none;
+ }
+ .leftColumn>ul{
+     list-style: none;
+ }
+ .leftColumn>ul>li>a{
+     color: #000;
+ }
+ .form{
+     display: flex;
+     flex-direction: column;
+     font-family: 'Raleway', sans-serif !important;
+     margin: 2em;
+ }
+.input{
+     border-style:double;
+     padding: 0.5em;
+     border-color: gray;
+ }
+ 
+ 
+ #coment{
+     padding: 0.5em;
+     border-color: gray;
+     font-family: 'Raleway', sans-serif !important;
+ }
+ .form textarea{
+     height: 10em;
+     resize: none;
+     margin-bottom: 2em;
+ }
+ #send{
+     margin-left: 50%;
+     width:70px;
+     text-align: center;
+     border-style:double;
+ }
+ 

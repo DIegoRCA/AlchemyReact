@@ -1,5 +1,5 @@
 import React from 'react';
-
+import '../styles/components/pages/ContactPage.css'
 const ContactPage = (props)=>{
     return(
         <main className="holder wrapper">
@@ -22,17 +22,17 @@ const ContactPage = (props)=>{
                 </div>
             </div>
 
-            <form action="" method="" class="form">
+            <form action="" method="" className="form">
         
-                    <input type="email" placeholder="YOUR EMAIL ADDRESS"/>
+                    <input className="input" type="email" placeholder="YOUR EMAIL ADDRESS"/>
         
-                    <input type="text" placeholder="YOUR NAME"/>
+                    <input className="input" type="text" placeholder="YOUR NAME"/>
         
-                    <input type="text" placeholder="EMAIL SUBJECT"/>
+                    <input className="input" type="text" placeholder="EMAIL SUBJECT"/>
         
-                    <textarea id="coment" placeholder="YOUR MESSAGE"></textarea>
+                    <textarea className="input" id="coment" placeholder="YOUR MESSAGE"></textarea>
         
-                    <input id="send" type="submit" value="SEND"/>
+                    <input className="input" id="send" type="submit" value="SEND"/>
             </form>
         
         </main>

@@ -1,12 +1,12 @@
 header{
-    width:100%;
+    width:970px;
     max-height: 300px;
     overflow: hidden;
     margin-bottom: 20px;
     background-color: #000000;
 }
 .holder{
-    width: 960px;
+    width: 970px;
     margin: 0 auto;
   }
 .container{
@@ -22,7 +22,7 @@ header .logo{
     padding: 15px 0 0 15px;
     width: 300px;
 }
-h3{
+.logo>h3{
     
     padding-left: 120px;
     font-family: 'Open Sans', sans-serif;

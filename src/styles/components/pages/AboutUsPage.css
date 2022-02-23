@@ -1,0 +1,74 @@
+.mision{
+    color: white;
+    padding: 2%;
+    text-align: center;
+    font-weight: 200;
+    line-height: 25px;
+    background-color: black;
+}
+section{
+    background-color: white;
+    text-align: center;
+    padding: 2%;
+}
+span{
+    font-weight: bold;
+}
+.team{
+    display: flexbox;
+    flex-flow: row wrap;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+
+
+
+}
+.people{
+    display:inline-block;
+    width: 25%;
+    padding: 2%;
+    margin-left:30px;
+ 
+
+
+}
+.people>img{
+    max-width: 70%;
+    padding-left: 13.5%;
+
+
+}
+.text{
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    line-height: 200%;
+text-align: center;
+   
+
+}
+.text>h6{
+    display: inline-flex;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    letter-spacing: 3px;
+    line-height: 20px;
+    text-transform: uppercase;
+    border: solid 1px black ;
+    padding:6px; 
+}
+
+.text>p{
+    
+    display: inline-flex;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    font-size: 10px;
+    letter-spacing: 3px;
+    line-height: 140%;
+    text-transform: uppercase;
+    padding:6px;
+    text-align:start;
+}
+

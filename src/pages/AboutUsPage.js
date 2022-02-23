@@ -1,4 +1,5 @@
 import React from 'react';
+import '../styles/components/pages/AboutUsPage.css';
 
 const AboutUsPage = (props)=>{
     return (
@@ -16,7 +17,9 @@ const AboutUsPage = (props)=>{
 
 <section>
         <h1>TEAM ALCHEMY</h1>
-    <p>Our Team prides itself on delivering CREATIVITY, QUALITY &amp; PARTNERSHIP! We pride ourselves on helping customers achieve outstanding projects because “WE GIVE A SHIT!TEAM ALCHEMY</p>
+    <p>Our Team prides itself on delivering <span>CREATIVITY, QUALITY &amp; PARTNERSHIP!</span></p>
+        <p>We pride ourselves on helping customers achieve outstanding projects because</p>
+        <span>“WE GIVE A SHIT!</span>
 </section>
 
 <div class="team">

@@ -1,19 +1,25 @@
+.holder{
+    width: 970px;
+    margin: 0 auto;
+  }
 .footer{
     background-color: #000;
     padding: 0.5em;
     padding-right: 50px;
     text-align: end;
-    width: 960px;
-    margin: 0 auto;
+
      
 }
-p{
+
+.footer>p{
     text-decoration: none;
     color:white;
 }
-span{
+
+.footer>p>span{
     color:white;
 }
-a{
+
+.footer>p>a{
     color:#00a997;
 }
