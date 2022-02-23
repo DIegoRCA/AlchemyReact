@@ -1,3 +1,7 @@
+.holder{
+    width: 970px;
+    margin: 0 auto;
+}
 .columns{
     column-count: 2;
     padding: 2em 2em;

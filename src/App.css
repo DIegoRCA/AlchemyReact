@@ -1,3 +1,4 @@
+*{margin: 0; padding: 0;}
 body{
   font-family: 'Open Sans',sans-serif;
   font-size: 16px;
@@ -5,7 +6,7 @@ body{
 }
 
 .holder{
-  width: 960px;
+  width: 970px;
   margin: 0 auto;
 }
 h2{

@@ -3,7 +3,7 @@ import '../styles/components/pages/AboutUsPage.css';
 
 const AboutUsPage = (props)=>{
     return (
-        <main className='holder wrapper back'>
+        <main className='holder'>
             <div  className='cuadrado'>
                 <h2>About us</h2>
                 <p>We are a company with over 20 years of experience  in custom set and display manufacturing. Our team is a combination of the best profesionals.</p>

@@ -1,3 +1,7 @@
+.holder{
+    width: 970px;
+    margin: 0 auto;
+  }
 header{
     width:970px;
     max-height: 300px;
@@ -5,10 +9,7 @@ header{
     margin-bottom: 20px;
     background-color: #000000;
 }
-.holder{
-    width: 970px;
-    margin: 0 auto;
-  }
+
 .container{
     display:flex;
     flex-flow: row wrap;

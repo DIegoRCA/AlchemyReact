@@ -35,7 +35,7 @@
     display:inline-block;
     flex-flow: row wrap;
     position: relative;
-    width: 970px;
+    /* width: 970px; */
     max-height: auto;
 }
 
