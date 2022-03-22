@@ -24,6 +24,10 @@
   
 }
 
-.text>h3,p{
-    color: #fff;
+.text1{
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    line-height: 200%;
+text-align: center;
+
 }

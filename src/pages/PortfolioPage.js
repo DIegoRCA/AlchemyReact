@@ -23,7 +23,7 @@ function PortfolioPage(props) {
                         className="d-block w-100"
                        
                         />
-                        <Carousel.Caption className='text'>
+                        <Carousel.Caption className='text1'>
                         <h3 >SAMSUNG ELECTRIC PLAYGROUND AT VIVID</h3>
                         <p>In this complex brief, the Alchemy team were required to offer a 360-degree solution, as an inclusion to Samsung’s Vivid 2019 activation & sponsorship.</p>
                         </Carousel.Caption>

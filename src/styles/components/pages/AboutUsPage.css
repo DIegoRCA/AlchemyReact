@@ -46,6 +46,7 @@ span{
     font-family: 'Raleway', sans-serif;
     line-height: 200%;
 text-align: center;
+color: black;
    
 
 }
@@ -58,7 +59,8 @@ text-align: center;
     line-height: 20px;
     text-transform: uppercase;
     border: solid 1px black ;
-    padding:6px; 
+    padding:6px;
+    color:black; 
 }
 
 .text>p{
@@ -72,5 +74,7 @@ text-align: center;
     text-transform: uppercase;
     padding:6px;
     text-align:start;
+    color:black;
 }
+
 
