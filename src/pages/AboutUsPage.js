@@ -9,12 +9,6 @@ const AboutUsPage = (props)=>{
                 <p>We are a company with over 20 years of experience  in custom set and display manufacturing. Our team is a combination of the best profesionals.</p>
             </div>
 
-            <div className='mision'>
-                <h1>OUR MISSION</h1>
-                <p><span>"You imagine it, we create it"</span> is our charter here at Alchemy. With over 20 years experience in custom set and display manufacturing, the company has worked with over 100 of Australia’s leading brand agencies, and with over 2000 installations achieved we know our stuff. Our team of local and European craftspeople are multi-talented in all trades to produce high quality creations to represent your brand or environment.</p>
-                <p>A community of production professionals with over 200 years of combined experience means the team at Alchemy has broad talent in all areas. From the design team through to account management, workshop and event logistics, our team presides over all areas of production and manufacturing to deliver your creative ideas.</p> 
-            </div>
-
 <section>
         <h1>TEAM ALCHEMY</h1>
     <p>Our Team prides itself on delivering <span>CREATIVITY, QUALITY &amp; PARTNERSHIP!</span></p>
@@ -34,7 +28,7 @@ const AboutUsPage = (props)=>{
     <div class="people">
         <img src="images/about/BEC2.png" alt="Bec"/>
         <div class="text">
-            <h2>Bec Ianna</h2>
+            <h2>Bec <br/>Ianna</h2>
             <h6>PROJECT MANAGER</h6>
             <p>THEY CONVERT A CONCEPT INTO A REALITY THAT CAN BE BUILT ON TIME &amp; ON BUDGET. WITH OVER 20 YEARS OF COMBINED INDUSTRY EXPERIENCE, THEY DELIVER-CONSISTENTLY!</p>
         </div>
@@ -50,7 +44,7 @@ const AboutUsPage = (props)=>{
     <div class="people">
         <img src="images/about/Diego2-1.png" alt="Diego"/>
         <div class="text">
-            <h2>Diego Cartelle</h2>
+            <h2>Diego <br/>Cartelle</h2>
             <h6>GRAPHICS MANAGER</h6>
             <p>Multi-talented &amp; innovative in creating design solutions that look amazing-despite all sorts of jobs to deal with.</p>
         </div>
@@ -74,7 +68,7 @@ const AboutUsPage = (props)=>{
     <div class="people">
         <img src="images/about/MATT2.png" alt="Matt"/>
         <div class="text">
-            <h2>Matt Aylife</h2>
+            <h2>Matt <br/>Aylife</h2>
             <h6>CREATIVE DIRECTOR</h6>
             <p>20 YEARS OF DEVELOPING HIGH QUALITY &amp; CREATIVE SOLUTIONS COMBINED WITH FAIR PRICING.</p>
         </div>
@@ -87,10 +81,12 @@ const AboutUsPage = (props)=>{
             <p>EXTENSIVE BUILD &amp; MANUFACTURING EXPERIENCE WITH STATE-OF-THE-ART EQUIPMENT AND A PRODUCTION TEAM THAT EXCELS</p>
         </div>
     </div>
-
-
-    
 </div>
+<div className='mision'>
+                <h1>OUR MISSION</h1>
+                <p><span>"You imagine it, we create it"</span> is our charter here at Alchemy. With over 20 years experience in custom set and display manufacturing, the company has worked with over 100 of Australia’s leading brand agencies, and with over 2000 installations achieved we know our stuff. Our team of local and European craftspeople are multi-talented in all trades to produce high quality creations to represent your brand or environment.</p>
+                <p>A community of production professionals with over 200 years of combined experience means the team at Alchemy has broad talent in all areas. From the design team through to account management, workshop and event logistics, our team presides over all areas of production and manufacturing to deliver your creative ideas.</p> 
+            </div>
 </main>
     );
 }

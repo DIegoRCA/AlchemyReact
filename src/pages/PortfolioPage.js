@@ -11,8 +11,9 @@ function PortfolioPage(props) {
                 <h2>Portfolio</h2>
                 <p>Over the years we have been involved in amazing creativity, reflecting our capacity and professionalism.</p>
             </div>
-        <div className="container1">
+
 {/******************************************* VIVID *****************************************/}
+            <div className="container1">
                 <Carousel className='size segundo'>
                     <Carousel.Item interval={4000}>
                         <div className="d-block w-100"/>

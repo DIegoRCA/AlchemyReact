@@ -2,7 +2,6 @@
     display: flexbox;
     flex-flow: row wrap;
     background-color: white;
-
 }
 
 .size{
@@ -12,7 +11,9 @@
     height:400px;
     margin-top: 5px;
     margin-bottom: 5px;
+    
     background-color:black;
+
     }
    
 .segundo{
