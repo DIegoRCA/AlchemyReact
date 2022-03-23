@@ -7,7 +7,7 @@
     display:inline-block;
     flex-flow: column wrap;
     position: relative;
-    width: 966px;
+    width: 970px;
     margin: 5px 0 5px 0;
     border: solid 2px #00a997;
     max-height: 100px;
@@ -37,48 +37,69 @@
     display:inline-block;
     flex-flow: row wrap;
     position: relative;
-    /* width: 970px; */
+    width: 970px;
     max-height: auto;
 }
 
 .foto-services{
-    
-    position: relative;
-    
+    width:970px;
+    height: 350px;
 }
-
-.foto-services>img{
-   
+.foto1{
+    display:block;
+    flex-flow: column wrap;
+    position:static;
     width: 970px;
-    height:300px; 
+    height: 350px;
 }
 
-.texto-services{
-    position:absolute;
-    top: 50%;
-    left:50%;
-    transform: translate(-50%, -50%);
-    
-    border-radius: 15px;
-    background-color: rgba(250, 250, 250, 0.8);;
+.foto1>img{
+    display:inline-block;
+    width: 485px;
+    height: 350px;
+}
+.centrado1{
+    display:inline-block;
+    width: 485px;
+    height: 350px;
     text-align: center;
-    padding:  0 10px 0 10px;
+    font-family: 'Raleway', sans-serif !important;
+    text-transform: uppercase;
+    padding-top: 3em;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.foto2>img{
+    display:inline-block;
+    width: 485px;
+    height: 350px;
+}
+.centrado2{
+    display:inline-block;
+    width: 485px;
+    height: 350px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif !important;
+    text-transform: uppercase;
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
- .centrado{
-    
-    color:#000;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.5em;
-
+h3{
+font-weight: 700;
 }
-.centrado>h3{
-    font-weight: bolder;
-} 
-.centrado > p{
-    color:#00a997;
-    font-size: 0.7em;
-    font-weight: bold;
 
-    
+p{
+    font-weight: 300;
+    font-size: 14px;
+    color: #4c4c4c;
+   
+}
+
+.button{
+    border-color:#00a997;
+    background-color:white;
+    border-style: hidden double;
+
 }
