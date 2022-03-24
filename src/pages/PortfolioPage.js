@@ -15,7 +15,7 @@ function PortfolioPage(props) {
 {/******************************************* VIVID *****************************************/}
             <div className="container1">
                 <Carousel className='size segundo'>
-                    <Carousel.Item interval={4000}>
+                    <Carousel.Item interval={10000000}>
                         <div className="d-block w-100"/>
                         <Carousel.Caption className='text1'>
                         <h3 >SAMSUNG ELECTRIC PLAYGROUND AT VIVID</h3>
@@ -54,7 +54,7 @@ function PortfolioPage(props) {
                 </Carousel>
 {/******************************************* HENDRICKS *****************************************/}
                 <Carousel className='size'>
-                    <Carousel.Item interval={4000}>
+                    <Carousel.Item interval={10000000}>
                         <div className="d-block w-100"/>
                         <Carousel.Caption className='text1'>
                         <h3>HENDRICK GIN ACTIVATION</h3>
@@ -92,7 +92,7 @@ function PortfolioPage(props) {
                 </Carousel>
 {/*******************************************CONEJO*****************************************/}                
                 <Carousel className='size segundo'>
-                    <Carousel.Item interval={4000}>
+                    <Carousel.Item interval={10000000}>
                         <div className="d-block w-100"/>
                         <Carousel.Caption>
                         <h3>CITY OF SYDNEY</h3>
@@ -132,7 +132,7 @@ function PortfolioPage(props) {
                     </Carousel>
 {/******************************************* YOUTUBE *****************************************/}
                 <Carousel className='size'>
-                    <Carousel.Item interval={4000}>
+                    <Carousel.Item interval={10000000}>
                         <div className="d-block w-100"/>
                         <Carousel.Caption>
                         <h3>YOUTUBE MUSIC</h3>
