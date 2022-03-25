@@ -26,7 +26,7 @@ const ServicesPage = (props)=>{
                 <>
                   {['left'].map((placement) => (
                     <OverlayTrigger
-                      trigger="click"
+                      trigger="hover"
                       key={placement}
                       placement={placement}
                       overlay={
@@ -57,7 +57,7 @@ const ServicesPage = (props)=>{
                 <>
                   {['bottom'].map((placement) => (
                     <OverlayTrigger
-                      trigger="click"
+                      trigger="hover"
                       key={placement}
                       placement={placement}
                       overlay={
@@ -87,7 +87,7 @@ const ServicesPage = (props)=>{
                 <>
                   {['left'].map((placement) => (
                     <OverlayTrigger
-                      trigger="click"
+                      trigger="hover"
                       key={placement}
                       placement={placement}
                       overlay={
@@ -113,7 +113,7 @@ const ServicesPage = (props)=>{
                 <>
                   {['bottom'].map((placement) => (
                     <OverlayTrigger
-                      trigger="click"
+                      trigger="hover"
                       key={placement}
                       placement={placement}
                       overlay={
@@ -144,7 +144,7 @@ const ServicesPage = (props)=>{
                 <>
                   {['left'].map((placement) => (
                     <OverlayTrigger
-                      trigger="click"
+                      trigger="hover"
                       key={placement}
                       placement={placement}
                       overlay={
