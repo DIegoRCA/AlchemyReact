@@ -9,6 +9,7 @@
     font-weight: 200;
     line-height: 25px;
     background-color: black;
+
 }
 section{
     background-color: white;
@@ -79,4 +80,50 @@ color: black;
     color:black;
 }
 
+.team-carousel{
+    display: flexbox;
+    flex-flow: column wrap;
+    background-color: white;
+}
 
+.size-carousel{
+    display:flex;
+    width: 970px;
+    height:400px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color:rgb(255, 255, 255);
+    
+}
+.text-team{
+    font-family: 'Open Sans', sans-serif;
+    display:inline-block;
+    color: black;
+    padding-left: 350px;
+    text-transform: uppercase;
+    }
+.text-team>h4{
+
+        font-family:'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        letter-spacing: 3px;
+        line-height: 20px;
+        text-transform: uppercase;
+        border: solid 1px black;
+        padding: 6px;
+
+}
+.text-team>p{
+ 
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 24px;
+        color: #4c4c4c;
+        text-transform: uppercase;
+}
+
+.carousel-indicators {
+    display: none;
+}
