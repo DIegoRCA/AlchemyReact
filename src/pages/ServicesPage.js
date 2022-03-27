@@ -3,26 +3,30 @@ import React from 'react';
 import '../../src/styles/components/pages/ServicesPage.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { OverlayTrigger, Popover, Button } from 'react-bootstrap';
-
-
+import '../../src/App.css';
 
 
 const ServicesPage = (props)=>{
     return (
 <main className='holder'>
+
     <div className='cuadrado'>
-        <h2>Services</h2>
+{/*     <img src=".\images\services\Trellis-SLR2.jpg" alt="img01"/> */}
+              <h2>Services</h2>
         <p>As a company we are after every part of the procces, in this way your journey with us is a piece of mind.</p>
     </div>
         
     <div className='container-services'>
 
-        <div className='foto-services foto1'>
-            <img src="./images/services/consultation.jpg" alt="img01"/>
-            <div className="centrado1">
+        <div className='foto-services'>
+          <div className='imagen'>
+                <img src="./images/services/consultation.jpg" alt="img01"/>
+          </div>
+
+          <div className="centrado1">
+           
                 <h3>CONSULTATION &amp; DESIGN</h3>
                 <p>We act as translators, turning your great ideas into realities.</p>
-
                 <>
                   {['left'].map((placement) => (
                     <OverlayTrigger
@@ -46,16 +50,16 @@ const ServicesPage = (props)=>{
                     </OverlayTrigger>
                   ))}
                 </>            
-            
-            </div>
-        </div>
+          </div>
+        </div> 
 
-        <div className='foto-services foto2'>
-        <div className="centrado2">
+
+        <div className='foto-services'>
+        <div className="centrado1">
                 <h3>TAILORED SOLUTIONS</h3>
                 <p>Unique products stimulate the imagination; we make brands stand out.</p>
                 <>
-                  {['bottom'].map((placement) => (
+                  {['right'].map((placement) => (
                     <OverlayTrigger
                       trigger="hover"
                       key={placement}
@@ -75,12 +79,15 @@ const ServicesPage = (props)=>{
                   ))}
                 </>  
             </div>
+            <div className='imagen'>
             <img src="./images/services/tailored.jpg" alt="img02"/>
-           
+            </div>
         </div>
         
-        <div className='foto-services foto1'>
-            <img src="./images/services/alchemy go.jpg" alt="img03"/>
+        <div className='foto-services'>
+            <div className='imagen'>
+              <img src="./images/services/alchemy go.jpg" alt="img03"/>
+            </div>
             <div className="centrado1">
                 <h3>ALCHEMY GO</h3>
                 <p>Must have add-ons and accessories to deliver immediate solutions.</p>
@@ -105,13 +112,13 @@ const ServicesPage = (props)=>{
                 </>             </div>
         </div>
 
-        <div className='foto-services foto2'>
-        <div className="centrado2">
+        <div className='foto-services'>
+        <div className="centrado1">
                 <h3>DIGITAL PRINTING</h3>
                 <p>High quality print media in a wide range of formats, turning ideas into realities.</p>
 
                 <>
-                  {['bottom'].map((placement) => (
+                  {['right'].map((placement) => (
                     <OverlayTrigger
                       trigger="hover"
                       key={placement}
@@ -132,12 +139,15 @@ const ServicesPage = (props)=>{
 
 
             </div>
-            <img src="./images/services/printing.jpg" alt="img04"/>
-            
+            <div className='imagen'>
+              <img src="./images/services/printing.jpg" alt="img04"/>
+            </div>
         </div>
 
-        <div className='foto-services foto1'>
+        <div className='foto-services'>
+        <div className='imagen'>
             <img src="./images/services/logistic.jpg" alt="img05"/>
+        </div>
             <div className="centrado1">
                 <h3>LOGISTIGS</h3>
                 <p>Professional event production, installation and management. We build anywhere, anytime.</p>

@@ -1,97 +1,40 @@
-.holder{
-    width: 970px;
-    margin: 0 auto;
-}
-
-.cuadrado{
-    display:inline-block;
-    flex-flow: column wrap;
-    position: relative;
-    width: 970px;
-    margin: 5px 0 5px 0;
-    border: solid 2px #00a997;
-    max-height: 100px;
-}
-.cuadrado >h2{
-    font-family:'Raleway', sans-serif !important;
-    position:absolute;
-    left:15%;
-    transform: translate(-60%, -30%);
-    font-size: 2.5em;
-    color:#000;
-    text-align: center;
-    font-style: italic;
-    padding-top: 50px;
-}
-
-.cuadrado > p{
-    padding-left: 270px;
-    transform: translate(0, 15%);
-    color:#252932;
-    font-weight: bold;
-    text-align: center;
-   
-    height: 100px;
-}
 .container-services{
-    display:inline-block;
-    flex-flow: row wrap;
-    position: relative;
-    width: 970px;
+    max-width: 970px;
     max-height: auto;
 }
 
 .foto-services{
-    width:970px;
-    height: 350px;
-}
-.foto1{
-    display:block;
-    flex-flow: column wrap;
-    position:static;
-    width: 970px;
-    height: 350px;
+    display:flex;
+    flex-flow: row wrap;
+    width:100%;
+    height: auto;
 }
 
-.foto1>img{
-    display:inline-block;
+.imagen>img{
     width: 485px;
     height: 350px;
 }
+
 .centrado1{
-    display:inline-block;
     width: 485px;
-    height: 350px;
+    height:auto;
     text-align: center;
+    padding: 10%;
     font-family: 'Raleway', sans-serif !important;
     text-transform: uppercase;
-    padding-top: 3em;
-    padding-left: 30px;
-    padding-right: 30px;
-}
-.foto2>img{
-    display:inline-block;
-    width: 485px;
-    height: 350px;
-}
-.centrado2{
-    display:inline-block;
-    width: 485px;
-    height: 350px;
-    text-align: center;
-    font-family: 'Raleway', sans-serif !important;
-    text-transform: uppercase;
-    padding-top: 50px;
-    padding-left: 30px;
-    padding-right: 30px;
+
 }
 
-
-
-.centrado1>p,.centrado2>p{
+.centrado1>p{
     font-weight: 300;
     font-size: 14px;
     color: #616161;
+   
+}
+.centrado1>h3{
+    font-weight: 500;
+    font-size: 25px;
+    color: #00a997;
    
 }
 
@@ -105,6 +48,7 @@
     outline: none;
     color: #000;
 }
-.button:hover {background-color: rgba(0, 169, 151,0.5)}
-      
 
+.button:hover {
+    background-color: white
+}
