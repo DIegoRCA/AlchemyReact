@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../src/styles/components/pages/PortfolioPage.css';
+import '../../src/styles/components/pages/NovedadesPage.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useState, useEffect } from 'react';
 import axios from 'axios';
@@ -27,8 +27,7 @@ function NovedadesPage(props) {
                 <h2>News</h2>
                 <p>All the information that excite us!</p>
             </div>
-            <section className="holder">
-                <h2>News</h2>
+            <section className="holder1">
                 {loading ? (
                     <p>Cargando...</p>
                 ) : (
