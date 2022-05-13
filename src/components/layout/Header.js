@@ -16,6 +16,7 @@ const Header =(props)=>{
                             <li><NavLink activeClassName="activo" exact to="/portfolio">Portfolio</NavLink></li>
                         	<li><NavLink activeClassName="activo" exact to="/aboutus">About Us</NavLink></li>
                             <li><NavLink activeClassName="activo" exact to="/services">Services</NavLink></li>
+                            <li><NavLink activeClassName="activo" exact to="/novedades">News</NavLink></li>
                             <li><NavLink activeClassName="activo" exact to="/contact">Contact</NavLink></li>
                         </ul>
                     </div>    

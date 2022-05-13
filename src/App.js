@@ -7,7 +7,7 @@ import PortfolioPage from './pages/PortfolioPage';
 import AboutUsPage from './pages/AboutUsPage';
 import ContactPage from './pages/ContactPage';
 import ServicesPage from './pages/ServicesPage';
-
+import NovedadesPage from './pages/NovedadesPage';
 
 
 function App() {
@@ -21,6 +21,7 @@ function App() {
          <Route path="/aboutus" exact component={AboutUsPage}/>
          <Route path="/contact" exact component={ContactPage}/>
          <Route path="/services" exact component={ServicesPage}/>
+         <Route path="/novedades" exact component={NovedadesPage}/>
         </Switch>
       <Footer/>
     </Router>
