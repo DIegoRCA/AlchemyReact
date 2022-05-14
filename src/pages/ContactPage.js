@@ -1,7 +1,5 @@
-import React from 'react';
-
+import React, { useState } from 'react';
 import axios from 'axios';
-import { useState } from 'react';
 import '../styles/components/pages/ContactPage.css';
 
 
@@ -11,7 +9,7 @@ const ContactPage = (props)=>{
             nombre:'',
             email:'',
             telefono:'',
-            mensaje:'',
+            mensaje:''
         }
 
         const [sending, setSending] = useState(false);
@@ -19,7 +17,7 @@ const ContactPage = (props)=>{
         const [formData, setFormData] = useState(initialForm);
 
         const handleChange = e => {
-            const { name, value } = e.target;
+            const {name, value} = e.target;
             setFormData(oldData => ({
                 ...oldData,
                 [name]: value
@@ -30,8 +28,7 @@ const ContactPage = (props)=>{
             e.preventDefault();
             setMsg('');
             setSending(true)
-            const response = await
-            axios.post('http://localhost:3003/api/contacto', formData);
+            const response = await axios.post('http://localhost:3003/api/contacto', formData);
             setSending(false);
             setMsg(response.data.message);
             if (response.data.error === false){
@@ -48,7 +45,7 @@ const ContactPage = (props)=>{
                         <li>13-15/61-71 Beauchamp Rd</li>
                         <li>Matraville</li>
                         <li>NSW </li>
-                        <li><a href="mailto:info@alchemyco.com.au?Subject=Please%20contact%20me">diegocartelle@gmail.com</a></li>
+                        <li><a href="mailto:diegocartelle@gmail.com?Subject=Please%20contact%20me">diegocartelle@gmail.com</a></li>
                     </ul>
                 </div>
 
@@ -61,17 +58,23 @@ const ContactPage = (props)=>{
                 </div>
             </div>
 
-            <form action="" method="post" className="form" onSubmit={handleSubmit}>
+            <form action="/contacto" method="post" className="form" onSubmit={handleSubmit}>
         
-                    <input className="input" type="text"  placeholder="YOUR EMAIL ADDRESS" value={formData.email} onChange={handleChange}/>
+                    <input className="input" type="text" name="email" placeholder="YOUR EMAIL ADDRESS" 
+                    value={formData.email} onChange={handleChange}/>
         
-                    <input className="input" type="text" value={formData.nombre} onChange={handleChange} placeholder="YOUR NAME"/>
+                    <input className="input" type="text" name="nombre" value={formData.nombre} onChange={handleChange} 
+                    placeholder="YOUR NAME"/>
         
-                    <input className="input" type="text" value={formData.telefono} onChange={handleChange} placeholder="CELULAR"/>
+                    <input className="input" type="text" name="telefono" value={formData.telefono} onChange={handleChange} 
+                    placeholder="CELULAR"/>
         
-                    <textarea className="input" id="coment" value={formData.mensaje} onChange={handleChange} placeholder="YOUR MESSAGE"></textarea>
+                    <textarea className="input" id="coment" name="mensaje" value={formData.mensaje} onChange={handleChange} 
+                    placeholder="YOUR MESSAGE"/>
+
                     {sending ? <p>Enviando...</p> : null}
                     {msg ? <p>{msg}</p> : null}
+
                     <input className="input" id="send" type="submit" value="SEND"/>
             </form>
         
