@@ -13,7 +13,7 @@ function NovedadesPage(props) {
     useEffect(() =>{
         const cargarNovedades = async () => {
             setLoading(true);
-            const response = await axios.get('http://localhost:3003/api/novedades');
+            const response = await axios.get(`&{process.env.REACT_APP_API_URL}/api/novedades`);
             setNovedades(response.data);
             setLoading(false);
         };
@@ -29,7 +29,7 @@ function NovedadesPage(props) {
             </div>
             <section className="holder1">
                 {loading ? (
-                    <p>Cargando...</p>
+                    <p>loading...</p>
                 ) : (
                     novedades.map(item => <NovedadItem key={item.id}
                         title={item.titulo} subtitle={item.subtitulo}
