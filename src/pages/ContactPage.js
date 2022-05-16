@@ -28,7 +28,7 @@ const ContactPage = (props)=>{
             e.preventDefault();
             setMsg('');
             setSending(true)
-            const response = await axios.post('http://localhost:3003/api/contacto', formData);
+            const response = await axios.post('https://alchemyweb2022.herokuapp.com/api/contacto', formData);
             setSending(false);
             setMsg(response.data.message);
             if (response.data.error === false){
