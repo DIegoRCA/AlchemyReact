@@ -13,7 +13,7 @@ function NovedadesPage(props) {
     useEffect(() =>{
         const cargarNovedades = async () => {
             setLoading(true);
-            const response = await axios.get(`&{process.env.REACT_APP_API_URL}/api/novedades`);
+            const response = await axios.get(`${process.env.REACT_APP_API_URL}/api/novedades`);
             setNovedades(response.data);
             setLoading(false);
         };
