@@ -25,7 +25,7 @@ function NovedadesPage(props) {
         <main className="holder">
             <div className="cuadrado">
                 <h2>News</h2>
-                <p>You imagine it, we create it. That is our motto at Alchemy. With over 20 years in custom set and display manufacturing Alchemy has worked with over 100 of Australia’s leading brand agencies to create some spectacular activations and installations all around the country. We have a highly skilled team of multi talented designers, artists, trade people and project managers.</p>
+                <p>You imagine it, we create it. That is our motto at Alchemy. With over 20 years in custom set and display manufacturing Alchemy has worked with over 100 of Australia’s leading brand agencies to create some spectacular activations and installations all around the country.</p>
             </div>
             <section className="holder1">
                 {loading ? (
