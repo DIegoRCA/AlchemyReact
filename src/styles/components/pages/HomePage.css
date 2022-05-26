@@ -1,6 +1,7 @@
 .holder{
     width: 960px;
     margin: 0 auto;
+   
 }
 
 
@@ -13,7 +14,7 @@
     height: auto;
     z-index: -100;
     transition: 1.5s opacity;
-    margin-top: 0;
+    margin-top: 8em;
 }
 
 .homevideo{
@@ -21,7 +22,7 @@
     display:inline-block;
     vertical-align: baseline;
     padding-bottom:0;
-    margin-bottom: 0;
+    margin-bottom: 4em;
 }
 .columnas{
     column-count: 3;

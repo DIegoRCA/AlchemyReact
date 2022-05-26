@@ -3,7 +3,7 @@ import {NavLink} from 'react-router-dom';
 
 const Header =(props)=>{
     return (
-        <header className="holder">
+        <header>
             <div className="container">
                 <div className="logo">
                     <img src="./images/logo.png" width={200} alt="Alchemy logotype" />

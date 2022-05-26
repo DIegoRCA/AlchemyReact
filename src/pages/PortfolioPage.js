@@ -94,7 +94,7 @@ function PortfolioPage(props) {
                 <Carousel className='size segundo'>
                     <Carousel.Item interval={10000000}>
                         <div className="d-block w-100"/>
-                        <Carousel.Caption>
+                        <Carousel.Caption className='text1'>
                         <h3>CITY OF SYDNEY</h3>
                         <h3>YEAR OF THE RABBIT</h3>
                         <p>To celebrate the Year of the Rabbit, our team was tasked by the City of Sydney to produce a series of life size illuminated figures to be displayed in public spaces outside Customs House and in Martin Place.
@@ -134,7 +134,7 @@ function PortfolioPage(props) {
                 <Carousel className='size'>
                     <Carousel.Item interval={10000000}>
                         <div className="d-block w-100"/>
-                        <Carousel.Caption>
+                        <Carousel.Caption className='text1'>
                         <h3>YOUTUBE MUSIC</h3>
                         <p>Creating a grand entrance was YouTubes goal with two custom arches for an industry music channel launch, managed carefully by their agency Sense.
                             stom plinths played an important role to display usable services on devices being showcased.</p>

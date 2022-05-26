@@ -1,4 +1,5 @@
 import {BrowserRouter as Router,Switch, Route} from "react-router-dom";
+import './index.css'
 
 import Header from './components/layout/Header';
 import Footer from './components/layout/Footer'; 
